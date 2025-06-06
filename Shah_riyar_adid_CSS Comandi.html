@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="refresh" content="60">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Comandi CSS</title>
+        <link type="text/css" rel="stylesheet" href="Shah_riyar_adid_Comandi CSS.css" >
+    </head>
+    <body>
+        
+        <h1>COMANDI CSS</h1>
+        <hr>
+        <br>
+        <header>
+        
+        <div class="dropdown">
+            <button>Argomenti</button>
+                <div class="content1">
+                    <a class="collegamento_link" href="#collegamento1">Cos'è CSS?</a>
+                    <a class="collegamento_link" href="#collegamento2">Font delle scritte CSS</a>
+                    <a class="collegamento_link" href="#collegamento3">Bordi</a>
+                    <a class="collegamento_link" href="#collegamento4">Sfondo</a>
+                    <a class="collegamento_link" href="#collegamento5">Margini</a>
+                    <a class="collegamento_link" href="#collegamento6">Float</a>
+                    <a class="collegamento_link" href="#collegamento7">Posizioni</a>
+                    <a class="collegamento_link" href="#collegamento8">Pseudo class</a>
+            </div>
+        </div>
+        <div id="destra">
+        <h2 id="accesso"><a id="sitoaccesso" href="accesso.html" target="_blank">ACCEDI</a></h2>
+        <h2 id="registrazione"><a id="registrazionehtml" href="registrazione.html" >REGISTRATI</a></h2>
+        </div>
+        
+    </header>
+        <br>
+        <br>
+        <img id="immagineTop" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQdf2QT_hKY_Hx8p98gIFRjFCbTbRmfRKb8sclqzEGvSJKxudvdxlXHzKH_mzYXbW0ZFk&usqp=CAU">
+        <fieldset class="cosCSS" id="collegamento1">
+        <div id="CSS">Cos'è CSS? </div>
+            <p id="content">CSS è l'acronimo di Cascading Style Sheets.
+                Ci sono 3 modi di utilizzare CSS:</p>
+                <ul id="typeCSS">
+                    <li>style</li>
+                    <li>Inline</li>
+                    <li>External</li>
+                </ul>
+                <p id="content">In questo sito tratteremo il CSS esterno, quindi dobbiamo utilizzare un file esterno ad Html per poi collegarlo nel seguente modo.
+                Esempio:</p><span id="escoll">link type="text/css" rel="stylesheet" href="Comandi CSS.css"</span>
+        </fieldset>
+        <br>
+        <fieldset class="secondo">
+            <p id="CSS">Classe e id :</p>
+      <p id="content">Se sul file HTML hai una classe, per modificarlo su CSS devi
+        utilizzare ".nome classe".<br> Se invece vuoi modificare un id devi usare "#nome id"
+      </p>  
+    </fieldset>
+    <br>
+        <fieldset id="collegamento2">
+            <div id="CSS">Font delle scritte:</div>
+            <p id="content">Per modificare le scritte possiamo utilizzare
+                i comandi:
+                <ol id="type2CSS">
+                    <table>
+                    
+                    <tr><th>font-family</th><td> la famiglia del font</td></tr>
+                    <tr><th>font-style</th><td>lo stile del font</td></tr>
+                    <tr><th>font weight</th><td> il peso della parola, che può essere
+                        per esempio "bold" cioè il testo marcato </td></tr>
+                        <br>
+                        <tr><th></th><td></td><td>Tipologie</td></tr>
+                        <tr><th>text-decoration</th><td> che può essere:<td>
+                        
+                        <ul id="typeCSS">
+                        <li>sottolineato (underline)</li>
+                        <li>solid</li>
+                        <li>dashed</li>
+                        <li>dotted</li>
+                        <li>double</li>
+                        <li>overline</li>
+                        <li>wave</li>
+                    </ul> 
+                    </li>
+                </table>
+                </ol>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset id="collegamento3">
+            <div id="CSS">Bordi:</div></p>
+            <p id="content">Per modificare i bordi in un paragrafo per esempio possiamo usare i seguenti comandi:</p>
+            <ul id="type2CSS">
+                <table>
+                <tr><th>border-style</th><td> può essere "dotted" "solid" "dashed" "double" "ridge" "groove" "inset" "outset"</td></tr>
+                <tr><th>border-width</th><td>spessore del bordo</td></tr>
+                <tr><th>border-color</th><td> colore del bordo</td></tr>
+                <tr><th>border-radius</th><td> bordi curvi </td></tr>
+                <tr><th>padding</th><td> spazio tra bordo e scritte</td></tr>
+                </table>
+            <p id="content">Per modificare per esempio i bordi di un titolo possiamo usare:</p>
+            <ul id="type2CSS">
+                <table>
+                <tr><th></th><td></td><td>Tipologie</td></tr>    
+                <tr><th>border-top-style</th><td> parte superiore del bordo che può essere: </td>
+                <ul id="typeCSS">
+                    <td>
+                    <li>dotted: punteggiato</li>
+                    <li>dashed</li>
+                    <li>double</li>
+                    <li>groove</li>
+                    <li>inherit</li>
+                    <li>initial</li>
+                    <li>inset</li>
+                    <li>outset</li>
+                    <li>ridge</li>
+                    </td>
+                </tr>
+                </ul>
+                <tr><th>border-bottom-style</th><td> parte inferiore del bordo che può essere :</td>
+                <ul id="typeCSS">
+                    <td>
+                    <li>dotted: punteggiato</li>
+                    <li>dashed</li>
+                    <li>double</li>
+                    <li>groove</li>
+                    <li>inherit</li>
+                    <li>initial</li>
+                    <li>inset</li>
+                    <li>outset</li>
+                    <li>ridge</li>
+                </td>
+                </ul>
+                <tr><th>border-left-style</th><td> parte sinistra del bordo che può essere :</td>
+                <ul id="typeCSS">
+                <td>
+                    <li>dotted: punteggiato</li>
+                    <li>dashed</li>
+                    <li>double</li>
+                    <li>groove</li>
+                    <li>inherit</li>
+                    <li>initial</li>
+                    <li>inset</li>
+                    <li>outset</li>
+                    <li>ridge</li>
+                </td>
+                </ul>
+                <tr><th>border-right-style</th><td>parte destra del bordo che può essere :</td>
+                <ul id="typeCSS">
+                    <td>
+                    <li>dotted: punteggiato</li>
+                    <li>dashed</li>
+                    <li>double</li>
+                    <li>groove</li>
+                    <li>inherit</li>
+                    <li>initial</li>
+                    <li>inset</li>
+                    <li>outset</li>
+                    <li>ridge</li>
+                </td>
+                </ul>
+                
+                <tr><th>border-width</th><td>spessore del bordo</td></tr>
+                <tr><th>border-color</th> <td>colore del bordo</td></tr>
+                <tr><th>border-radius</th><td> bordi curvi </td></tr>
+                <tr><th>padding </th><td>spazio tra bordo e scritte</td></tr>
+
+            </table>
+            </ol>
+        </fieldset>
+        <br>
+        <fieldset id="collegamento4">
+            <div id="CSS">Lo sfondo:</div></p>
+            <p id="content">Per modificare i bordi in un titolo per esempio possiamo usare i seguenti comandi:</p>
+            <ol id="type2CSS">
+                <table>
+                <tr><th>background-color </th><td> colore di sfondo</td></tr>
+                <tr><th>background: linear-gradient(colore1 , colore2) </th><td> più di un colore di sfondo</td></tr>
+                <tr><th>background:no-repeat </th><td> Non ripete i colori continuamente ( del background ) </td></tr>
+                <tr><th>background-attachment: fixed </th> <td>tutta la pagina avrà lo sfondo linear-gradient</td></tr>
+            </table>
+                <br>
+        <p id="content">Per modificare i bordi del body per esempio possiamo usare i seguenti comandi:</p>
+            <ol id="type2CSS">
+                <table>
+                <tr><th>background-image:url(immagine.jpg)</th><td> immagine di sfondo per farlo dobbiamo aprire un'altra pagina con l'immagine</td></tr>
+                <tr><th>background-repeat: no-repeat</th><td>L'Immagine di sfondo non viene ripetuto </td></tr>
+                <tr><th>background-attachment:fixed</th><td> tutta la pagina avrà lo sfondo </td></tr>
+                <tr><th>background-position: center</th><td>Lo sfondo verrà posizionato al centro</td></li>
+                <tr><th>background-size:cover</th><td> Se allarghiamo o diminuiamo la grandezza della finestra, l'immagine si adatta</td></tr>
+            </table>
+            </fieldset>
+            <br>
+            <fieldset id="collegamento5">
+                <div id="CSS">I margini:</div>
+                <p id="content">I margini ( margins ) sono gli spazi tra gli elementi
+                    <br>
+                    per modificare i margini possiamo usare i seguenti comandi: 
+                </p>
+                <ol id="type2CSS">
+                    <table>
+                    <tr><th>margin-top</th><td> l'elemento si sposta in basso ( si allontana dal mergine alto )</td></tr>
+                    <tr><th>margin-bottom</th><td> l'elemento si sposta in alto ( si allontana dal mergine basso ) </td></tr>
+                    <tr><th>margin-left</th><td> l'elemento si sposta a destra ( si allontana dal mergine sinistro ) </td></tr>
+                    <tr><th>margin-left</th><td> l'elemento si sposta a sinistra ( si allontana dal mergine destro ) </td></tr>
+                    <tr><th>margin: 0 </th><td> l'elemento si attacca al margine sinistro</td></tr>
+                    <tr><th>margin-left:auto </th><td> Sposta completamente l'elemento a sinistra</td></tr>
+                    <tr><th>margin-right:auto </th><td>Sposta completamente l'elemento a destra</td></tr>
+                </table>
+                </ol>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset id="collegamento6">
+                <div id="CSS">Il float:</div>
+                <p id="content">Posiziona un elemento a destra o a sinistra di un container.
+                <br>
+                Si utilizzano le immagini principalmente per usare il float
+                <br>I comandi sono :</p>
+                <ol id="type2CSS">
+                    <table>
+                <tr><th>float:left</th><td> Le scritte compaiono nella parte destra dell'immagine e l'immagine si sposterà a sinistra </td></tr>
+                <tr><th>float:right</th><td> Le scritte compaiono nella parte sinistra dell'immagine e l'immagine si sposterà a destra </td></tr>
+                <tr><th>clear:left</th><td> Smette di fare il float delle scritte, ma l'immagine resta nella posizione del float </td></tr>
+            
+            </table>
+            </ol>
+            </fieldset>
+            <br>
+            <fieldset id="collegamento7">
+                <div id="CSS">Posizioni:</div>
+                <p id="content">Per modificare le posizioni possiamo usare i seguenti comandi:</p>
+                <br>
+                <ol id="type2CSS">
+                <table class="tablepos">
+                <tr id="tablepos" ><th>position: static</th><td id="tablepos"> l'elemento ha una posizione default (non si muove)</td></tr>
+                <tr><th> relative</th> <td> Possiamo muovere questo elemento relativo in alcuni punti rispetto l'origine</td></tr>
+                <tr><th> absolute</th> <td> Rimuove dal flusso normale della pagina e viene posizionato in base al suo contenitore</td></tr>
+                <tr><th>position:fixed </th> <td> Resta nella posizione del viewport, quindi anche se scorriamo verso il basso la pagina , l'elemento resterà per esempio nella parte in basso a sinistra dello schermo</td></tr>
+                <tr><th>position:sticky</th> <td> Se scorriamo la pagina verso l'alto, quando superiamo l'elemento questo rimarrà attaccato nella parte in basso a sinistra della pagina ( se usiamo bottom , se usiamo top succede il contrario )
+                    Se usiamo entrambi insieme ( bottom + top ), l'elemento si attaccherà nel punto dello schermo in base a dove scorriamo ( in alto o in basso).</td>
+                </tr>
+            </table>    
+            </ol>  
+            </fieldset>
+            <br>
+            <fieldset id="collegamento8">
+                <div id="CSS">Pseudo class:</div>
+                <p id="content">Una parola chiave aggiunta a un selettore che specifica uno stato speciale dell'elemento selezionato.<br>
+                Uno stato speciale può essere per esempio quando passiamo sopra l'elemento, quando clicchiamo l'elemento. <br>
+                I comandi dello pseudo class con un link per esempio sono:</p>
+                <br>
+                <ol id="type2CSS">
+                    <table>
+                    <tr><th>Comando</th><td>Spiegazione</td><td>Esempio</td>
+                    <tr><th>a:link</th><td> Possiamo modificare per esempio il colore del link </td><td>a:link{color:lawngreen}</td></tr>
+                    <tr><th>a:visited</th><td>quando visitiamo il sito la scritta può cambiare colore</td><td>a:visited{color:grey}</td></tr>
+                    <tr><th>a:hover</th><td>Quando passiamo col cursore sopra l'elemento ( link o tabella ) cambia colore</td><td>a:hover{color:tomato}</td></tr>
+                    <tr><th>a:active</th><td>Quando entriamo nel sito la scritta cambia colore</td><td>a:active{color:yellow}</td></tr>
+                    <tr><th>li:nth-cild(numero elemento)</th><td>Ci permette di modificare i singoli elementi di un elenco</td><td>li:nth-cild(1){background-color:yellow}</td></tr>
+                    <tr><th>li:nth-cild(even-odd)</th><td>Modifica gli elementi dispari(even)/pari(odd) dell'elenco</td><td>li:nth-cild(even){background-color:skyblue}</td></tr>
+                </table>
+                </ol>
+            </fieldset>
+            <br>
+            <hr>
+            <p id="siti">Siti che ti potrebbero interessare:</p>
+            <a id="sitilink" href="https://www.w3schools.com/" target="_blank">1.W3 schools</a><br><br>
+            <a id="sitilink" href="https://www.html.it/guide/guida-css-di-base/" target="_blank">2.HTML</a>
+            <br><br><br>
+            <div id="box">FINISH</div>
+            <br><br><br><br>
+            
+            <!--Aggiungi test per vedere cosa ha capito l'utente-->
+            <form>
+            <h2 id="DomandeCSS">Domande CSS</h2>
+            <fieldset>
+            <legend>1. Qual'è l'acronimo di CSS?</legend>
+            <input type="radio" name="question1" id="q1a"><label for="q1a">Cascading Style Sheet</label><br>
+            <input type="radio" name="question1" id="q1b"><label for="q1b">Computerized Style Syntax</label><br>
+            <input type="radio" name="question1" id="q1c"><label for="q1c">Creative Styling System</label><br>
+            </fieldset>
+
+            <fieldset>
+            <legend>2. Per l'id si utilizza :</legend>
+            <input type="radio" name="question2" id="q2a"><label for="q2a">#</label><br>
+            <input type="radio" name="question2" id="q2b"><label for="q2b">.</label><br>
+            <input type="radio" name="question2" id="q2c"><label for="q2c">:</label><br>
+            </fieldset>
+
+            <fieldset>
+            <legend>3. Il comandi padding :</legend>
+            <input type="radio" name="question3" id="q3a"><label for="q3a">Serve per definire la larghezza del bordo</label><br>
+            <input type="radio" name="question3" id="q3b"><label for="q3b">Serve per definire l'altezza del bordo</label><br>
+            <input type="radio" name="question3" id="q3c"><label for="q3c">Serve per definire lo spazio tra il bordo e le parole</label><br>
+            </fieldset>
+
+            <fieldset>
+            <legend>4. Position absolute :</legend>
+            <input type="radio" name="question4" id="q4a"><label for="q4a">L'elemento resta nella posizione del viewport</label><br>
+            <input type="radio" name="question4" id="q4b"><label for="q4b">Permette di muovere un elemento in alcuni punti rispetto l'origine</label><br>
+            <input type="radio" name="question4" id="q4c"><label for="q4c">Rimuove dal flusso normale della pagina e viene posizionato in base al suo contenitore</label><br>
+            </fieldset>
+
+            <fieldset>
+            <legend>5. Per modificare un elemento facendo click si utilizza :</legend>
+            <input type="radio" name="question5" id="q5a"><label for="q5a">hover</label><br>
+            <input type="radio" name="question5" id="q5b"><label for="q5b">active</label><br>
+            <input type="radio" name="question5" id="q5c"><label for="q5c">visited</label><br>
+            </fieldset>
+
+            <button id="invia" class="risultato-questionario" type="submit">Termina questionario</button><br>
+            <p id="risultato" style="font-weight: bold; margin-top: 15px; text-align: center;"></p>
+            </form>
+            <!--Fine questionario-->
+
+            <!--Valutazione sito-->
+            <div id="allineamentoh2">
+                <h2 id="votoh2">VALUTA IL SITO DA 1 A 10:</h2>
+                <label id="counter" class="counter">0</label>
+                <br><br>
+                <button id="diminuisci" class="buttons">-1</button><button id="reset" class="buttons">Reset</button><button id="aumenta" class="buttons" >+1</button>
+                </div>
+                <script src="Shah_riyar_adid_Comandi JS.js"></script>
+    </body>
+</html>
